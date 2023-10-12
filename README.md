@@ -6,7 +6,16 @@ Perfil y Carrito. Para ello se utilizo el paquete "express-session", ademas se a
 Se agrego la posibilidad de login y registro utilizando passport, utilizando los paquetes "passport", "passport-local" y 
 "passport-github2", este ultimo para que se pueda utilizar la autenticacion con GitHub.
 
-Las rutas agregadas en este desafio son las siguientes: 
+En el archivo .env se agregaron las variables de entorno para la configuracion GitHub:
+
+```
+GITHUB_KEY=5bf3f144ace191045c9a1fce79b489570a5d71dd
+GITHUB_APP_ID=406931
+GITHUB_CLIENT_ID=Iv1.c8c7fadb4767d889
+GITHUB_CALLBACK=http://localhost:8080/api/auth/callbackGitHub
+```
+
+A continuacion se listan las rutas que se fueron agregando.
 
 - **GET**      http://localhost:8080/view/login
 - **GET**      http://localhost:8080/view/register
