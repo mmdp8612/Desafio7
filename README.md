@@ -1,7 +1,10 @@
-## Información sobre el Desafio 6
+## Información sobre el Desafio 7
 
 Se incluyo funcionalidad de login y registro de usuarios, los mismos son necesarios para acceder a las secciones de Productos, 
 Perfil y Carrito. Para ello se utilizo el paquete "express-session", ademas se agrego el modelo User para persistir la informacion de cada usuario que se registre.
+
+Se agrego la posibilidad de login y registro utilizando passport, utilizando los paquetes "passport", "passport-local" y 
+"passport-github2", este ultimo para que se pueda utilizar la autenticacion con GitHub.
 
 Las rutas agregadas en este desafio son las siguientes: 
 
